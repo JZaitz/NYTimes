@@ -1,0 +1,584 @@
+/*
+ *****************************************
+ * Section Header =body
+ *****************************************
+*/
+
+body {
+  min-width: 990px;
+}
+
+/*
+ *****************************************
+ * Section Header =left
+ *****************************************
+*/
+
+/*
+ *****************************************
+ * Section Header =top-bar
+ *****************************************
+*/
+
+.top-bar {
+  position: fixed;
+  left: 30px;
+  top: 0;
+  padding-top: 7px;
+  height: 44px;
+  width: 100%;
+  background-color: #fff;
+  /*border: 1px solid red;*/
+  border-bottom: 1px solid #ccc;
+  min-width: 900px;
+  z-index: 9999;
+}
+
+.left-nav {
+  position: relative;
+  float: left;
+  width: 328px;
+}
+
+.left-nav li, .right-nav li {
+  display: inline;
+  text-transform: uppercase;
+}
+
+.left-nav ul, .right-nav ul {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  left: -25px;
+}
+.top-bar button {
+  padding: 7px 9px;
+  border-radius: 3px;
+  font-weight: 700;
+  margin-left: 5px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.left-nav button {
+  margin-top: 1px;
+  border: none;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+
+.left-nav button:hover {
+  background-color: #f7f7f5;
+}
+
+#sections {
+  background-image: url(../images/menu.svg);
+  background-position: 9px 7.5px;
+  background-size: 18px 14px;
+  box-shadow: rgba(0,0,0,0.6) 0px 3px 2px;
+  padding-left: 32px;
+  margin-left: 12px;
+}
+
+#home {
+  background-image: url(../images/favicon.ico);
+  background-position: 9px 7.5px;
+  background-size: 16px 16px;
+  padding-left: 28px;
+}
+
+#search {
+  background-image: url(../images/search.svg);
+  background-position: 9px 7.5px;
+  background-size: 16px 16px;
+  padding-left: 28px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  margin-top: 3px;
+}
+
+.right-nav {
+  position: relative;
+  float: right;
+  width: 328px;
+  height: 20px;
+}
+
+.right-nav button {
+  background-color: #6288a5;
+  border: 1px solid #4d7b9F;
+  color: #fff !important;
+  margin-right: 5px;
+}
+
+.right-nav button:hover {
+  background-color: #326891;
+}
+
+.right-nav ul {
+  float: right;
+  margin-right: 22px;
+}
+
+.right-nav li {
+  vertical-align: top;
+}
+
+
+#settings {
+  background-image: url(../images/cog.svg);
+  background-position: 0px 7px;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  height: 25px;
+  width: 16px;
+  margin-left: 8px;
+  display: inline-block;
+  cursor: pointer;
+  cursor: hand;
+}
+
+
+/*
+ *****************************************
+ * Section Header =carosel
+ *****************************************
+*/
+
+.carosel-container {
+  width: calc(100% - 22px);
+  height: 83px;
+  position: relative;
+  float: right;
+  top: 46px;
+  clear: both;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  /*border: 1px solid black;*/
+  /*background-color: yellow;*/
+}
+
+.carosel-container ul {
+  display: relative;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.carosel-container li {
+  display: inline;
+}
+
+.carosel-article {
+  padding: 5px 9px 5px 8px;
+  margin: 3px 0 5px 0;
+  width: 240px;
+  height: 65px;
+  /*background-color: pink;*/
+  display: inline-block;
+  border-left: 1px solid #e2e2e2;
+}
+
+.first-div {
+  border-left: none;
+  margin-left: ;
+  padding-left: 9px;
+}
+
+.carosel-article img {
+  display: relative;
+  float: left;
+  margin: 0;
+}
+
+.carosel-article h2 {
+  display: relative;
+  float: left;
+  margin: 10px 0 0 0;
+  padding-left: 15px;
+  font-size: 13px;
+  width: 150px;
+  font-weight: 200;
+  font-size: 15px;
+  color: #333;
+}
+
+.carosel-article h2:hover {
+  text-decoration: underline;
+}
+
+.carosel-image {
+  display: inline-block;
+}
+
+.carosel-links {
+  text-decoration: none;
+}
+/* This sits between the carosel and avertisement
+ *****************************************
+ * Section Header =spacer
+ *****************************************
+*/
+
+.spacer {
+  position: relative;
+  height: 5px;
+  width: 100%;
+  background-color: pink;
+  border-top: 1px solid red;
+  z-index: 8888;
+}
+
+/*
+ *****************************************
+ * Section Header =main-container
+ *****************************************
+*/
+
+.main-container {
+  position: relative;
+  float: right;
+  width: calc(100% - 25px);
+  margin-top: 50px;
+  /*background-color: #fff9fe;*/
+}
+
+
+#advertisement {
+  margin-top: 15px;
+}
+
+/*
+ *****************************************
+ * Section Header =article header
+ *****************************************
+*/
+
+article {
+  width: 900px;
+  border-top: 1px solid black;
+  margin: 15px auto 0 auto;
+  background-color: #fff /*testing*/
+}
+
+.article-header {
+  overflow: hidden;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.article-header h1 {
+  margin: 25px 0 10px 0;
+}
+
+.section-link {
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: "times new roman",times,serif;
+  font-size: 34px;
+}
+
+/*
+ *****************************************
+ * Section Header =icons (social media icons near header)
+ *****************************************
+*/
+/*clearfix technique*/
+
+.social-media:after {
+  clear: both;
+  display: block;
+  content: ' ';
+  visibility: hidden;
+  height: 1%;
+}
+
+.author, .author a{
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  padding-top: 12px;
+  font-weight: 700;
+}
+
+#name:hover {
+  text-decoration: underline;
+}
+
+#date {
+  font-weight: 200;
+  margin-left: 7px;
+}
+
+.icons-container {
+  float: right;
+  padding: 14px 0;
+}
+
+.icons {
+  position: relative;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  margin: 0 7px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+
+#facebook {
+  background: url('../images/nyt-sprites.svg') no-repeat -33px -54px;
+}
+
+#facebook:hover {
+  background: url('../images/nyt-sprites.svg') no-repeat -85px -54px;
+}
+
+#twitter {
+  background: url('../images/nyt-sprites.svg') no-repeat -59px -313px;
+}
+
+#twitter:hover {
+  background: url('../images/nyt-sprites.svg') no-repeat -85px -313px;
+}
+
+#email {
+  background: url('../images/nyt-sprites.svg') no-repeat -131px -21px;
+}
+
+#email:hover {
+  background: url('../images/nyt-sprites.svg') no-repeat -183px -21px;
+}
+
+#reply {
+  background: url('../images/nyt-sprites.svg') no-repeat -294px -247px;
+}
+
+#reply:hover {
+  background: url('../images/nyt-sprites.svg') no-repeat -346px -247px;
+}
+
+#spacer {
+  width:0;
+  border-left: 1px solid #e2e2e2;
+  margin: 0 2px;
+}
+
+#favorite {
+  background: url('../images/nyt-sprites.svg') no-repeat -353px -214px;
+  width: 16px;
+}
+
+#favorite:hover {
+  background: url('../images/nyt-sprites.svg') no-repeat -387px -214px;
+}
+
+#likes {
+  vertical-align: top;
+  width: 32px;
+  border-radius: 3px;
+  border: 1px solid #666;
+  overflow: hidden;
+  margin-right: 1px;
+}
+
+.likes-count {
+  display: inline-block;
+  padding: 6px 15px 15px 7px;
+  font-size: 13px;
+}
+
+.likes-count:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/*
+ *****************************************
+ * Section Header =image
+ *****************************************
+*/
+
+h5 {
+  margin: 8px 0 15px 0;
+  font-family: "times new roman",times,serif;
+  font-size: 14px;
+  color: #666;
+  font-weight: 300;
+}
+.caption-container {
+  margin-bottom: 50px;
+  width: 550px;
+}
+
+.caption-by {
+  font-size: 11px;
+  font-weight: 400;
+}
+/*
+ *****************************************
+ * Section Header =text-container
+ *****************************************
+*/
+
+.text-container {
+  width: 570px;
+  margin-left: 75px;
+}
+
+.text-container p {
+  font-family: georgia,"times new roman",times,serif;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.text-container a {
+  color: rgb(50, 104, 145);
+}
+
+strong {
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 26px;
+}
+
+/*
+ *****************************************
+ * Section Header =info-graphic
+ *****************************************
+*/
+
+.info-graphic {
+  font-family: "times new roman",times,serif;
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 1px solid #e2e2e2;
+  margin: 30px 0;
+  padding: 15px 0;
+}
+
+.infographic-headline {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 3px 0;
+}
+
+.infographic-leadin {
+  color: #666;
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.image-container {
+  position: relative;
+}
+
+.explainer-container {
+  position: absolute;
+  width: 207px;
+  margin: 0 10px;
+  font-family: arial,helvetica,sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.explainer-heading {
+  font-weight: 800;
+}
+
+.top {
+    top: 145px;
+}
+
+.bottom {
+  top: 535px;
+}
+
+.one {
+    left: -10px;
+}
+
+.two {
+  left: 220px;
+}
+
+.three {
+  left: 450px;
+}
+
+.four {
+  left: 680px;
+}
+
+.image-container .caption-by {
+  position: absolute;
+  bottom: 5px;
+  color: #999;
+  font-size: 12px
+  font-weight: 300;
+}
+
+/*
+ *****************************************
+ * Section Header =video-frame
+ *****************************************
+*/
+
+iframe {
+  margin-top: 25px;
+}
+
+.video-info {
+  font-size: 13px;
+  color: #666;
+}
+
+.small-span {
+  font-size: 11px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+/*
+ *****************************************
+ * Section Header =last image
+ *****************************************
+*/
+
+.gravity-patterns {
+  margin-top: 40px;
+}
+
+/*
+ *****************************************
+ * Section Header =bottom-notes
+ *****************************************
+*/
+
+.bottom-line {
+  width: 60px;
+  margin: 15px 0 30px;
+  border-top: 1px solid black;
+}
+
+#details {
+  color: #999;
+  font-size: 11px;
+  line-height: 15px;
+}
